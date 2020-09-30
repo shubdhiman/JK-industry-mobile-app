@@ -12,4 +12,9 @@ class Industry{
   static const double xlargeText = 20.0;
   static const double xxlargeText = 22.0;
   static const double xxxlargeText = 24.0;
+
+  static const String GOOGLE_API_KEY = "AIzaSyC_6Gd0eOakfy0LQ9qk3S5SYGjpyAfJkZA";
+
+
+
 }
