@@ -1,9 +1,7 @@
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
-import 'package:carousel_slider/carousel_slider.dart';
 import 'package:jk_industry/Pages/about_page.dart';
 import 'package:jk_industry/Pages/contact_page.dart';
 import 'package:jk_industry/Pages/home_page.dart';
@@ -18,6 +16,7 @@ class _HomeScreenState extends State<HomeScreen> {
   ValueNotifier<int> selectedIndex = ValueNotifier(0);
 
   final List<Widget> pages = [HomePage(), AboutPage(), ContactPage()];
+  final List<String> pageTitles = ["Home", "About Us", "Contact Us"];
 
   @override
   Widget build(BuildContext context) {
@@ -26,7 +25,7 @@ class _HomeScreenState extends State<HomeScreen> {
       builder: (context, value, child) {
         return Scaffold(
           backgroundColor: Industry.background_color,
-          appBar: AppBar(title: Text('Home')),
+          appBar: AppBar(title: Text(pageTitles[value])),
           body: pages[value],
           bottomNavigationBar: Theme(
             data: Theme.of(context).copyWith(
