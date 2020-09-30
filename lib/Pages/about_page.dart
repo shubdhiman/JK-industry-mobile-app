@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:jk_industry/Utils/industry.dart';
 
 class AboutPage extends StatelessWidget {
   @override

@@ -92,7 +92,7 @@ class HomePage extends StatelessWidget {
                             padding: const EdgeInsets.only(right: 10),
                             child: Text(
                               "See more",
-                              style: TextStyle(color: Colors.red),
+                              style: TextStyle(color: Colors.indigoAccent[200]),
                             ),
                           ),
                         ),
@@ -138,7 +138,7 @@ class HomePage extends StatelessWidget {
                           padding: const EdgeInsets.only(right: 10),
                           child: Text(
                             "See more",
-                            style: TextStyle(color: Colors.red),
+                            style: TextStyle(color: Colors.indigoAccent[200]),
                           ),
                         ),
                       ),

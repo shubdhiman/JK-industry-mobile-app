@@ -95,7 +95,7 @@ class ContactPage extends StatelessWidget {
                                 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
                                 <meta http-equiv="X-UA-Compatible" content="ie=edge">
                                 <body>
-                                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13756.966578197738!2d77.031791!3d30.457593!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2a4a619918275656!2sj%20k%20industries!5e0!3m2!1sen!2sin!4v1601468035724!5m2!1sen!2sin" style="width:100%;height:100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13756.966578197738!2d77.031791!3d30.457593!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2a4a619918275656!2sj%20k%20industries!5e0!3m2!1sen!2sin!4v1601468035724!5m2!1sen!2sin" style="width:100%;height:100%" frameborder="0" style="border:0;" allowfullscreen="false" aria-hidden="false" tabindex="0"></iframe>
                                 </body></html>""", mimeType: 'text/html')
                       .toString(),
                   javascriptMode: JavascriptMode.unrestricted,
