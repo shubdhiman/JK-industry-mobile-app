@@ -104,9 +104,9 @@ class HomePage extends StatelessWidget {
                     options: CarouselOptions(
                       autoPlay: true,
                       aspectRatio:
-                          MediaQuery.of(context).size.height > 800 ? 1.35 : 1.6,
+                          MediaQuery.of(context).size.height > 800 ? 1.9 : 1.9,
                       enlargeCenterPage: true,
-                      scrollDirection: Axis.vertical,
+                      scrollDirection: Axis.horizontal,
                     ),
                     items: imageSliders,
                   ),
@@ -125,7 +125,7 @@ class HomePage extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.only(left: 10),
                       child: Text(
-                        "Raw Material",
+                        "Fabrication Material",
                         style: TextStyle(
                             fontWeight: FontWeight.bold,
                             fontSize: Industry.mediumText),
@@ -150,9 +150,9 @@ class HomePage extends StatelessWidget {
                   options: CarouselOptions(
                     autoPlay: true,
                     aspectRatio:
-                        MediaQuery.of(context).size.height > 800 ? 1.35 : 1.6,
+                        MediaQuery.of(context).size.height > 800 ? 1.9 : 1.9,
                     enlargeCenterPage: true,
-                    scrollDirection: Axis.vertical,
+                    scrollDirection: Axis.horizontal,
                   ),
                   items: imageSliders,
                 ),
